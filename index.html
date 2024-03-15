@@ -15,23 +15,27 @@
   <body>
     <header class="header">
       <div class="container header__container">
-        <img src="/images/logo.svg" alt="Simple logo" />
+        <img class="logo" src="/images/logo.svg" alt="Simple logo" />
 
-        <div class="flex ac-c gap-60">
-          <ul class="header__list">
-            <li>
-              <a href="#" class="link">Продукция</a>
-            </li>
-            <li>
-              <a href="#" class="link">Материалы</a>
-            </li>
-            <li>
-              <a href="#" class="link">О нас</a>
-            </li>
-            <li>
-              <a href="#" class="link">Контакты</a>
-            </li>
-          </ul>
+        <div class="header__menu flex ac-c">
+          <nav class="header__list">
+            <ul>
+              <li>
+                <a href="#" class="link">Продукция</a>
+              </li>
+              <li>
+                <a href="#" class="link">Материалы</a>
+              </li>
+              <li>
+                <a href="#" class="link">О нас</a>
+              </li>
+              <li>
+                <a href="#" class="link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__burger">Бургер</div>
 
           <div class="header__actions">
             <div class="search">
@@ -52,6 +56,220 @@
         </div>
       </div>
     </header>
+
+    <section class="main">
+      <div class="container flex jc-sp-bet">
+        <div class="main__left">
+          <h1>
+            Простые вещи. <br />
+            Из бумаги
+          </h1>
+          <p>
+            Бума́га (предположительно от итал. bombagia, первоисточником же
+            считается иранский) — волокнистый материал с минеральными добавками.
+          </p>
+
+          <a href="#" class="button">Каталог</a>
+        </div>
+
+        <div class="main__right">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="/images/head.png" />
+            <source media="(min-width: 760px)" srcset="/images/head_690.png" />
+            <source media="(min-width: 510px)" srcset="/images/head_510.png" />
+            <img src="" alt="" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container">
+        <div class="steps">
+          <div class="step">
+            <img src="/images/step_1.png" alt="" />
+
+            <div class="text">
+              <h3>V.1</h3>
+              <p>Результат вашего обучения</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <img src="/images/step_2.png" alt="" />
+
+            <div class="text">
+              <h3>V.2</h3>
+              <p>Результат вашего обучения</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <img src="/images/step_3.png" alt="" />
+
+            <div class="text">
+              <h3>V.3</h3>
+              <p>Результат вашего обучения</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="whiteness">
+          <div class="whiteness__left">
+            <img src="/images/whiteness.png" alt="" />
+          </div>
+
+          <div class="whiteness__right">
+            <h2>Максимальная белизна</h2>
+
+            <p>
+              Для повышения белизны, гладкости и мягкости в состав бумажной
+              массы вводят белые минеральные вещества: мел, тальк, каолин и др.
+              Эта операция называется наполнением.
+            </p>
+            <p>
+              Отлив бумажного листа осуществляют на бумагоделательной машине,
+              важнейшей частью которой является непрерывно движущаяся (как
+              транспортер) металлическая или капроновая сетка.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <div class="container flex gap-30 wrap">
+        <div class="catalog__item">
+          <img src="/images/catalog_1.png" alt="" />
+
+          <h3>Упаковка</h3>
+
+          <span>Тираж: от 50 штук</span>
+
+          <p>
+            Сделано из крафт-бумаги или плотного картона. Упаковки имеют
+            различные формы и расцветки, изготовим форму под заказ.
+          </p>
+
+          <a href="#" class="catalog-link">Подробнее</a>
+        </div>
+
+        <div class="catalog__item">
+          <img src="/images/catalog_2.png" alt="" />
+
+          <h3>Пакеты</h3>
+
+          <span>Тираж: от 200 штук</span>
+
+          <p>
+            С прямоугольным дном. От 10 см до 60 см по высоте. Материалы:
+            картон, крафт-бумага. Различные расцветки и дизайн.
+          </p>
+
+          <a href="#" class="catalog-link">Подробнее</a>
+        </div>
+
+        <div class="catalog__item">
+          <img src="/images/catalog_4.png" alt="" />
+
+          <h3>Кейсы</h3>
+
+          <span>Тираж: от 30 штук</span>
+
+          <p>
+            Подойдет для документов и других бумаг. Различные расцветки, размеры
+            и плотность. Материал: прессованная бумага.
+          </p>
+
+          <a href="#" class="catalog-link">Подробнее</a>
+        </div>
+
+        <div class="catalog__item">
+          <img src="/images/catalog_3.png" alt="" />
+
+          <h3>Другие изделия</h3>
+
+          <span>Тираж: от 100 штук</span>
+
+          <p>
+            Нестандартные упаковки, кейсы и другие изделия различных размеров
+            и конфигураций. Изготовим в кратчайшие сроки.
+          </p>
+
+          <a href="#" class="catalog-link">Подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="container flex gap-30 jc-sp-bet wrap">
+        <img src="/images/hahnemuhle.png" alt="" />
+        <img src="/images/canson.png" alt="" />
+        <img src="/images/royal.png" alt="" />
+        <img src="/images/fabriano.png" alt="" />
+      </div>
+    </section>
+
+    <section class="scetchbook">
+      <div class="container scetchbook__container flex ac-c gap-30">
+        <div class="scetchbook__left">
+          <h2>Simple скетчбук</h2>
+
+          <p>
+            80 листов, твердая обложка, бумага Fabriano 200 г/м2. Подойдет и для
+            графики и для акварели. Для самых смелых творческих замыслов!
+          </p>
+
+          <a href="#" class="button">Купить</a>
+        </div>
+
+        <div class="scetchbook__right">
+          <picture>
+            <source media="(min-width: 1024px)" srcset="/images/book.png" />
+            <source media="(min-width: 500px)" srcset="/images/book_690.png" />
+            <img src="/images/book_510.png" alt="" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container flex jc-sp-bet ac-c">
+        <img src="/images/logo_white.svg" alt="" />
+
+        <ul class="flex gap-30">
+          <li>
+            <a href="#">
+              <img src="/images/fb.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="/images/tw.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="/images/in.svg" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="/images/yt.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="post-footer">
+      Made with <img src="/images/love.svg" alt="" /> by
+      <a class="link" href="https://github.com/Dunissimo">Dunissimo</a>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
