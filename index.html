@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <img src="/images/logo.svg" alt="Simple logo" />
+
+        <div class="flex ac-c gap-60">
+          <ul class="header__list">
+            <li>
+              <a href="#" class="link">Продукция</a>
+            </li>
+            <li>
+              <a href="#" class="link">Материалы</a>
+            </li>
+            <li>
+              <a href="#" class="link">О нас</a>
+            </li>
+            <li>
+              <a href="#" class="link">Контакты</a>
+            </li>
+          </ul>
+
+          <div class="header__actions">
+            <div class="search">
+              <img src="/images/search.svg" class="open" alt="" />
+              <input
+                type="search"
+                name="search"
+                placeholder="Найти"
+                id="headerSearch"
+              />
+              <button class="close-button close" />
+            </div>
+
+            <button class="login-button">
+              <img src="/images/log_in.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
