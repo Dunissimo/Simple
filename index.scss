@@ -202,6 +202,12 @@ ul {
     padding-top: 90px;
     padding-bottom: 90px;
 
+    @media (max-width: 1023px) {
+        > .container {
+            flex-wrap: wrap;
+        }
+    }
+
     &__item {
         width: calc((100% - 30px) / 4);
 
