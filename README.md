@@ -1,8 +1,4 @@
-# Vite Project README
-
-This is a Vite project that demonstrates how to set up a simple web application using Vite.
-
-## Getting Started
+# Getting Started
 
 To get started with this project, follow the steps below:
 
