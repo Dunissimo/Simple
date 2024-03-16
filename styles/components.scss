@@ -237,6 +237,16 @@
     }
 }
 
+.social-link {
+    img {
+        transition: .15s ease-out;
+    }
+    
+    &:hover img {
+        filter: invert(63%) sepia(48%) saturate(7123%) hue-rotate(219deg) brightness(99%) contrast(102%);
+    }
+}
+
 
 .login-button {
     width: 24px;
@@ -246,13 +256,14 @@
     background: none;
     border: none;
     cursor: pointer;
-    color: #4C5866;
-
+    filter: invert(30%) sepia(5%) saturate(1862%) hue-rotate(172deg) brightness(100%) contrast(83%);
+    transition: .15s ease-out;
+    
     &:hover {
-        color: #7875FE;
+        filter: invert(36%) sepia(65%) saturate(2192%) hue-rotate(226deg) brightness(114%) contrast(99%);
     }
-    &:active {
-        color: #4946B4;
+
+    img:active {
     }
 }
 
@@ -309,7 +320,13 @@
     transition: .6s width ease-out;
 
     img {
+        transition: .15s all ease-out;
         cursor: pointer;
+        filter: invert(33%) sepia(18%) saturate(496%) hue-rotate(172deg) brightness(92%) contrast(87%);
+    }
+
+    img:hover {
+        filter: invert(48%) sepia(98%) saturate(3464%) hue-rotate(223deg) brightness(107%) contrast(99%);
     }
 
     input {
