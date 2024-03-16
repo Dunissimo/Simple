@@ -9,7 +9,7 @@ To get started with this project, follow the steps below:
 
 2. Navigate to the project directory:
 
-    ```cd vite-project```
+    ```cd Simple```
    
 
 3. Install dependencies:
