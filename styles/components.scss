@@ -114,6 +114,7 @@
     } 
 
     &__menu {
+        overflow: hidden;
         @media (max-width: 1023px) {       
             width: 100%;
             padding-top: 30px;
@@ -123,6 +124,7 @@
             position: relative;
         }
         @media (max-width: 510px) {
+            overflow: visible;
             justify-content: space-between;
             align-items: center;
 
