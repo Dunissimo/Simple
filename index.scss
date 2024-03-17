@@ -29,7 +29,10 @@ ul {
 
 .main {
     padding-top: 60px;
-    overflow: hidden;
+
+    > .container {
+        overflow: hidden;
+    }
 
     @media (max-width: 630px) {
         padding-top: 49px;
